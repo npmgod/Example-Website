@@ -1,0 +1,31 @@
+.Links {
+  position: relative;
+  margin: 35px 5px;
+  font-family: Roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Links a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  letter-spacing: -0.2px;
+  margin: 0px 25px;
+}
+.Links a i {
+  margin-right: 5px;
+}
+.Links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 455px) {
+  .Links {
+    flex-direction: column;
+  }
+  .Links a {
+    margin-bottom: 25px;
+  }
+}

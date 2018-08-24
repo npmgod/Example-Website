@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../styles/pages/TrumpTweets.css';
 import TrumpTweet from 'trump-tweets';
 import $ from 'jquery';
+import Links from '../components/Links';
 
 class TrumpTweets extends Component {
   render() {
@@ -17,6 +18,11 @@ class TrumpTweets extends Component {
         </div>
 
         <div className="results" />
+
+        <Links
+          githubLink="https://github.com/npmgod/Trump-Tweets"
+          npmLink="https://www.npmjs.com/package/trump-tweets"
+        />
       </div>
     );
   }

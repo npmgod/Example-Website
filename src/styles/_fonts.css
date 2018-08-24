@@ -19,3 +19,8 @@
   src: url('../assets/fonts/RobotoMono-Light.ttf');
   font-weight: light;
 }
+@font-face {
+  font-family: Roboto;
+  src: url('../assets/fonts/RobotoMono-LightItalic.ttf');
+  font-style: italic;
+}
