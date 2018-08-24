@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import TrumpTweets from './pages/TrumpTweets';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter, Route } from 'react-router-dom';
+import './styles/_fonts.css';
+import './styles/_global.css';
+
+// Pages (packages)
+import TrumpTweets from './pages/TrumpTweets';
 
 ReactDOM.render(
   <BrowserRouter>

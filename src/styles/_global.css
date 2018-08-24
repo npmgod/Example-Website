@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+.page-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: bold;
+  margin: 20px 8px;
+  white-space: nowrap;
+}
+.sub-text {
+  font-family: Roboto;
+  font-size: 17px;
+  text-align: center;
+  padding: 0px 50px;
+}
+
+.button {
+  margin: 50px 25px;
+  padding: 5px 25px;
+  font-family: Roboto;
+  font-weight: light;
+  font-size: 18px;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: 0.1s;
+}
+.button:hover {
+  cursor: pointer;
+  background: black;
+  color: white;
+}
