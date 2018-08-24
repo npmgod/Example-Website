@@ -13,8 +13,14 @@ import CorporateIpsum from './pages/CorporateIpsum';
 ReactDOM.render(
   <BrowserRouter>
     <div>
-      <Route path="/trump-tweets" component={TrumpTweets} />
-      <Route path="/corporate-ipsum" component={CorporateIpsum} />
+      <Route
+        path={process.env.PUBLIC_URL + '/trump-tweets'}
+        component={TrumpTweets}
+      />
+      <Route
+        path={process.env.PUBLIC_URL + '/corporate-ipsum'}
+        component={CorporateIpsum}
+      />
     </div>
   </BrowserRouter>,
   document.getElementById('root')
