@@ -27,7 +27,7 @@ body {
   font-family: Roboto;
   font-size: 17px;
   text-align: center;
-  width: 750px;
+  width: 75%;
   padding: 0px 50px;
 }
 
@@ -80,5 +80,8 @@ input::placeholder {
 @media (max-width: 464px) {
   .header {
     font-size: 7vw;
+  }
+  .sub-text {
+    width: 90%;
   }
 }
