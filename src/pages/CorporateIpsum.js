@@ -11,7 +11,7 @@ class CorporateIpsum extends Component {
         <div className="header">Corporate-Ipsum:</div>
         <div className="sub-text">
           Tired of boring old placeholder text? Like Lorem Ipsum? Spice up your
-          filler with Coprorate-Ipsum, and maybe impress your client or
+          filler with Corporate-Ipsum, and maybe impress your client or
           management with your professional wisdom!
         </div>
 
