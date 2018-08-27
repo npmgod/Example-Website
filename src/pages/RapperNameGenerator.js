@@ -20,8 +20,8 @@ class RapperNameGenerator extends Component {
         <div className="results" />
 
         <Links
-          githubLink="https://github.com/npmgod/Corporate-Ipsum"
-          npmLink="https://www.npmjs.com/package/corporate-ipsum"
+          githubLink="https://github.com/npmgod/Rapper-Name-Generator"
+          npmLink="https://www.npmjs.com/package/rapper-name-generator"
         />
       </div>
     );
