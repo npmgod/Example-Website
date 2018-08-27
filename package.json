@@ -6,6 +6,7 @@
   "dependencies": {
     "corporate-ipsum": "^1.0.1",
     "jquery": "^3.3.1",
+    "rapper-name-generator": "git+https://github.com/npmgod/Rapper-Name-Generator.git",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-router-dom": "^4.3.1",

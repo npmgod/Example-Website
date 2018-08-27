@@ -10,6 +10,7 @@ import App from './App';
 // Pages (packages)
 import TrumpTweets from './pages/TrumpTweets';
 import CorporateIpsum from './pages/CorporateIpsum';
+import RapperNameGenerator from './pages/RapperNameGenerator';
 
 ReactDOM.render(
   <HashRouter basename={process.env.PUBLIC_URL}>
@@ -17,6 +18,7 @@ ReactDOM.render(
       <Route path="/" component={App} />
       <Route path="/trump-tweets" component={TrumpTweets} />
       <Route path="/corporate-ipsum" component={CorporateIpsum} />
+      <Route path="/rapper-name-generator" component={RapperNameGenerator} />
     </div>
   </HashRouter>,
   document.getElementById('root')
