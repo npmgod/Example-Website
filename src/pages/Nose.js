@@ -20,7 +20,7 @@ class Nose extends Component {
 
         <Links
           githubLink="https://github.com/npmgod/Nose"
-          npmLink="https://www.npmjs.com/package/rapper-name-generator"
+          npmLink="https://www.npmjs.com/package/nosed"
         />
       </div>
     );
